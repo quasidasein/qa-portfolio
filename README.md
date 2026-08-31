@@ -28,7 +28,7 @@
 * **Стек и конструкции:** `INNER JOIN`, `LEFT JOIN` (поиск потерянных записей через `IS NULL`), вложенные подзапросы (Subqueries), агрегатные функции (`COUNT`, `SUM`, `AVG`), группировка (`GROUP BY`) и фильтрация групп (`HAVING`).
 * **Смотреть артефакт:** [sql-queries.sql](./sql-queries.sql)
 
-### 🌐 Тестирование API (Postman & REST)
+### 🌐 5. Тестирование API (Postman & REST)
 * **Файл:** `Petstore_API_Practice.postman_collection.json`
 * **Стек:** Postman, JavaScript (Post-response scripts), REST API, JSON.
 * **Что реализовано:**
