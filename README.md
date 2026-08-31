@@ -28,6 +28,13 @@
 * **Стек и конструкции:** `INNER JOIN`, `LEFT JOIN` (поиск потерянных записей через `IS NULL`), вложенные подзапросы (Subqueries), агрегатные функции (`COUNT`, `SUM`, `AVG`), группировка (`GROUP BY`) и фильтрация групп (`HAVING`).
 * **Смотреть артефакт:** [sql-queries.sql](./sql-queries.sql)
 
+### 🌐 Тестирование API (Postman & REST)
+* **Файл:** `Petstore_API_Practice.postman_collection.json`
+* **Стек:** Postman, JavaScript (Post-response scripts), REST API, JSON.
+* **Что реализовано:**
+  * Покрытие CRUD-операций для сущностей `User` и `Pet` (Swagger Petstore).
+  * Динамическая авторизация (`Request Chaining`): автоматический парсинг токена сессии из ответа `/user/login` и передача в переменные коллекции.
+  * Валидация статус-кодов (200, 201, 204), проверка структуры ответов (JSON schema) и бизнес-логики.
 ---
 
 ## 🛠 Стек и ключевые навыки
